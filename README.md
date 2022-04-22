@@ -1,38 +1,16 @@
-# Crud-laravel-vue-js
-Crud laravel + vue js with api and template volar + vuetify component
-
-# Demo
-
-- Dashboard
- 
-<img src='https://i.postimg.cc/3xF9M2LJ/Dashboard.png' border='0' alt='Dashboard'/>
-
-- Table
-<img src='https://i.postimg.cc/nrmY3mjx/Table.png' border='0' alt='Table'/>
-
-- Form
-
-<img src='https://i.postimg.cc/C5pfLQ5y/tambah.png' border='0' alt='tambah'/>
-
-- Alert
-
-<img src='https://i.postimg.cc/g2tX6JjH/alert.png' border='0' alt='alert'/>
-
+# laravel-vue-crud
+Crud laravel + vue js with api and template vuetify component
 # Getting started
 
 ## Installation
 
-Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
-
-Alternative installation is possible without local dependencies relying on [Docker](#docker). 
-
 Clone the repository
 
-    git clone https://github.com/Rafieaydin/Crud-laravel-vue-js.git
+    git clone https://github.com/tarunvaghela33/laravel-vue-crud.git
 
 Switch to the repo folder
 
-    cd Crud-laravel-vue-js
+    cd laravel-vue-crud
 
 Install all the dependencies using composer
 
@@ -58,8 +36,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone https://github.com/Rafieaydin/Crud-laravel-vue-js.git
-    cd Crud-laravel-vue-js
+    git clone https://github.com/tarunvaghela33/laravel-vue-crud.git
+    cd laravel-vue-crud
     composer install
     cp .env.example .env
     php artisan key:generate
@@ -68,15 +46,6 @@ You can now access the server at http://localhost:8000
 
     php artisan migrate
     php artisan serve
-
-## credit
-- [volar template](https://getstisla.com/)
-- [framework laravel](https://laravel.com/)
-- [vue.js](https://vuejs.org/v2/guide/)
-- [vuetify](https://vuetifyjs.com/en/)
-- [bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- [SweetAlert](https://sweetalert2.github.io/)
-- [vue notify](https://github.com/BinarCode/vue-notifyjs?ref=madewithvuejs.com)
 
 
 
