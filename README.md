@@ -39,6 +39,8 @@ You can now access the server at http://localhost:8000
     git clone https://github.com/tarunvaghela33/laravel-vue-crud.git
     cd laravel-vue-crud
     composer install
+    npm install
+    npm run dev
     cp .env.example .env
     php artisan key:generate
     
