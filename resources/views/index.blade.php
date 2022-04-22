@@ -10,7 +10,6 @@
     </title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/template/app.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/favicon.svg') }}" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="{{ asset('css/perfect-scrollbar/perfect-scrollbar.css') }}">
 

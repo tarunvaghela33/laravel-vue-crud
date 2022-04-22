@@ -2,12 +2,11 @@
     <div id="sidebar" class='active'>
         <div class="sidebar-wrapper active">
             <div class="sidebar-header">
-                <img src="/images/logo.svg" alt="" srcset="">
+                Admin
             </div>
             <div class="sidebar-menu">
                 <ul class="menu">
                     <li class='sidebar-title'>Main Menu</li>
-
                     <router-link to="*" v-slot="{ href,navigate, isActive, isExactActive }" custom>
                         <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
                         <a :href="href" @click="navigate" class='sidebar-link'>
@@ -17,22 +16,6 @@
                     </li>
                     </router-link>
                     <li class='sidebar-title'>Master</li>
-                    <router-link to="/siswa" v-slot="{ href,navigate, isActive, isExactActive }" custom>
-                        <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
-                        <a :href="href" @click="navigate" class='sidebar-link'>
-                            <i data-feather="user" width="20"></i>
-                            <span>Siswa</span>
-                        </a>
-                    </li>
-                    </router-link>
-                    <router-link to="/kelas" v-slot="{ href,navigate, isActive, isExactActive }" custom>
-                        <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
-                        <a :href="href" @click="navigate" class='sidebar-link'>
-                            <i data-feather="home" width="20"></i>
-                            <span>Kelas</span>
-                        </a>
-                    </li>
-                    </router-link>
                     <router-link to="/users" v-slot="{ href,navigate, isActive, isExactActive }" custom>
                         <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
                         <a :href="href" @click="navigate" class='sidebar-link'>
